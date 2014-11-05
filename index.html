@@ -3,9 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>snake</title>
-
-		<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main.css">
 </head>
+
+
+
 <body onkeyup="whichkeypress(event)">
 <audio loop="loop" id="Background-AudioPlayer" preload="audio">
 <source src="audio/background.mp3" type="audio/mp3"/>
@@ -17,16 +19,18 @@
 <hr/>
 <canvas id="Snake-Canvas"></canvas>
 <hr/>
-<p>当前用时：<span id="Snake-Time"></span> 当前得分：<span id="Snake-Score"></span> 蛇长：<span id="Snake-Length"></span></p>
+<p>当前用时：
+<span id="Snake-Time"></span>
+当前得分：<span id="Snake-Score"></span> 
+蛇长：<span id="Snake-Length"></span>
+</p>
 <p id="Snake-Status"></p>
+
 <script src="Snake.js">
-</script>
 
-	<script src="js/jquery-2.1.1.min.js"></script>
-	<script src="js/sup.js"></script>
-	<script src="js/showan.js"></script>
-	<script src="js/ms.js"></script>
+
 
 </body>
-</body>
+
+
 </html>
